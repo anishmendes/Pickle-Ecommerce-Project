@@ -2,13 +2,13 @@
 import logo from '../../assets/logo.png'
 import { Link, NavLink } from 'react-router-dom';
 import { useState } from "react";
-// import {
-//   PaperAirplaneIcon,
-//   MoonIcon,
-//   SunIcon,
-//   Bars3Icon,
-//   XMarkIcon,
-// } from "@heroicons/react/24/outline";
+import {
+  PaperAirplaneIcon,
+  MoonIcon,
+  SunIcon,
+  Bars3Icon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -59,21 +59,21 @@ const Navbar = () => {
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   } rounded-md px-3 py-2 text-md font-medium transition duration-300`
-                } onClick={toTop} to="/Home">Home</NavLink>
+                } onClick={toTop} to="/Home">H</NavLink>
                 <NavLink  className={({ isActive }) =>
                   `${
                     isActive
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   } rounded-md px-3 py-2 text-md font-medium transition duration-300`
-                } onClick={toTop} to="/Admission">Admission</NavLink>
+                } onClick={toTop} to="/Shop">SHOP</NavLink>
                 <NavLink  className={({ isActive }) =>
                   `${
                     isActive
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   } rounded-md px-3 py-2 text-md font-medium transition duration-300`
-                } onClick={toTop} to="/Faculty">Faculty</NavLink>
+                } onClick={toTop} to="/Story">OUR STORY</NavLink>
 
                 <NavLink  className={({ isActive }) =>
                   `${
@@ -81,7 +81,7 @@ const Navbar = () => {
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   } rounded-md px-3 py-2 text-md font-medium transition duration-300`
-                } onClick={toTop} to="/Eca">ECA</NavLink>
+                } onClick={toTop} to="/Contact">CONTACT</NavLink>
 
                 <NavLink  className={({ isActive }) =>
                   `${
@@ -89,7 +89,7 @@ const Navbar = () => {
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   } rounded-md px-3 py-2 text-md font-medium transition duration-300`
-                } onClick={toTop} to="/Notice">Notice</NavLink>
+                } onClick={toTop} to="/Checkout">CHECKOUT</NavLink>
 
                 <NavLink  className={({ isActive }) =>
                   `${
