@@ -30,15 +30,17 @@ const Navbar = () => {
   return (
     <div className="app">
       {/* <marquee behavior="" direction="" className='fixed bg-[#0a1122] z-20 top-0'>
+         
+        </marquee> */}
+
+        
         <ul className="z-20 flex gap-4 py-2 text-white list-disc">
           <li className='pr-4'>Admission are open from Class One to Eight. </li>
           <li className='pr-4'>Admission are open from Class One to Eight. </li>
           <li className='pr-4'>Admission are open from Class One to Eight. </li>
           <li className='pr-4'>Admission are open from Class One to Eight. </li>
           <li className='pr-4'>Admission are open from Class One to Eight. </li>
-         
         </ul>
-      </marquee> */}
       <nav>
         <div className="text-white">
           <div className="flex justify-between w-full px-[5%] fixed top-[40px] bg-[#162545] z-20">
