@@ -48,7 +48,7 @@ const Navbar = () => {
               <div>
                 <Link className='flex items-center gap-1 font-bold text-white hover:text-white' to='/Home'>
                   <img className='w-20 h-20' src={logo} alt="Logo" />
-                  <span>Shree Annapurna Vidhya Mandir</span>
+                  <span>Logo</span>
                 </Link>
               </div>
               {/* primary */}
