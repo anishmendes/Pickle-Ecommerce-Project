@@ -2,7 +2,7 @@ import React from 'react'
 import Wrapper from '../Wrapper'
 import Fresh from '../Fresh'
 import Best from '../Best'
-
+import Testimonal from '../Testimonal'
 
 const Home = () => {
   return (
@@ -45,6 +45,7 @@ const Home = () => {
         </div>
 
         <Best/>
+        <Testimonal/>
     </div>
   )
 }

@@ -12,6 +12,9 @@ export default {
       colors: {
         customGray: '#707070',
       },
+      borderRadius: {
+        '20p': '20%',
+      },
     },
   },
   plugins: [],

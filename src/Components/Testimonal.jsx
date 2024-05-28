@@ -10,9 +10,9 @@ import "swiper/swiper-bundle.css";
 
 const Testimonal = () => {
   return (
-    <div>
+    <div className='p-[40px] mt-[50px]'>
+         <h1 className='text-2xl pt-[20px] pb-[50px] flex items-center justify-center font-bold'>What Do Our Cilents Say About Us?</h1>
       
-      <div>
        
         <Swiper
           modules={[ Navigation]}
@@ -22,31 +22,33 @@ const Testimonal = () => {
           
           
           navigation={true}
+          className=' flex mb-[20px] '
         >
           {testimonal.map((val, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className=' flex   justify- center '>
               <motion.div
                 whileHover={{ scale: 0.93 }}
-                className='items shadow'
+                className=' flex flex-col  pb-[100px] p-[40px] rounded border-[10px] text-center border border-green-200 max-h-[350px]' 
               >
-                <div className='box flex'>
+                <div className=' flex'>
                   <div className='img'>
-                    <img src={val.cover} alt='' />
+  
+                    <img src={val.cover} alt='' className='w-[120px] h-[120px] rounded-20p' />
                     <i className='fa fa-quote-left icon'></i>
                   </div>
-                  <div className='name'>
-                    <h2>{val.name}</h2>
+                  <div className='p-[20px] flex items-center'>
+                    <h2 className='text-xl font-semibold'>{val.name}</h2>
                     
                   </div>
                 </div>
-                <p>{val.desc}</p>
+                <p className='text-xl pt-10'>{val.desc}</p>
               </motion.div>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
     
-    </div>
+   
   )
 }
 
