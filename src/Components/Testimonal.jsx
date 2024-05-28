@@ -37,7 +37,7 @@ const Testimonal = () => {
                     <i className='fa fa-quote-left icon'></i>
                   </div>
                   <div className='p-[20px] flex items-center'>
-                    <h2 className='text-2xl font-semibold'>{val.name}</h2>
+                    <h2 className='text-2xl font-semibold text-green-800'>{val.name}</h2>
                     
                   </div>
                 </div>
