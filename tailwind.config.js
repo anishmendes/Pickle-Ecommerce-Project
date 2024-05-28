@@ -9,6 +9,9 @@ export default {
       boxShadow: {
         'custom': '11px 19px 34px -9px rgba(0,95,163,0.6)',
       },
+      colors: {
+        customGray: '#707070',
+      },
     },
   },
   plugins: [],
