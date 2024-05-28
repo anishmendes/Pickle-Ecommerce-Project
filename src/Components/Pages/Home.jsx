@@ -1,6 +1,7 @@
 import React from 'react'
 import Wrapper from '../Wrapper'
 import Fresh from '../Fresh'
+import Best from '../Best'
 
 
 const Home = () => {
@@ -42,6 +43,8 @@ const Home = () => {
           </div>
 
         </div>
+
+        <Best/>
     </div>
   )
 }
