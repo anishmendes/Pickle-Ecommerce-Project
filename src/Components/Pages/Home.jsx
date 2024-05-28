@@ -1,5 +1,7 @@
 import React from 'react'
 import Wrapper from '../Wrapper'
+import Fresh from '../Fresh'
+
 
 const Home = () => {
   return (
@@ -18,6 +20,7 @@ const Home = () => {
         </div>
     </div>
         <Wrapper/>
+        <Fresh/>
     </div>
   )
 }
