@@ -37,11 +37,11 @@ const Testimonal = () => {
                     <i className='fa fa-quote-left icon'></i>
                   </div>
                   <div className='p-[20px] flex items-center'>
-                    <h2 className='text-xl font-semibold'>{val.name}</h2>
+                    <h2 className='text-2xl font-semibold'>{val.name}</h2>
                     
                   </div>
                 </div>
-                <p className='text-xl pt-10'>{val.desc}</p>
+                <p className='text-xl pt-10 font-medium'>{val.desc}</p>
               </motion.div>
             </SwiperSlide>
           ))}
