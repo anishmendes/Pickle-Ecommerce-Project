@@ -1,21 +1,21 @@
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer';
-
+import Home from './Components/Pages/Home';
 const App = () => {
   return (
    <>
      <div className='w-full min-h-screen overflow-hidden'>
         <Navbar />
-        {/* <Routes>
+        <Routes>
           <Route path='/' exact element={<Home />} />
-          <Route path="/Admission" element={<Admission />} />
+          {/* <Route path="/Admission" element={<Admission />} />
           <Route path='/Faculty' element={<Faculty />} />
           <Route path='/Eca' element={<Eca />} />
           <Route path='/Signup' element={<SignUp />} />
           <Route path='/Notice' element={<Notice />} />
           <Route path='/About' element={<About />} />
-          <Route path='*' element={<Navigate to='/' />} />
-        </Routes> */}
+          <Route path='*' element={<Navigate to='/' />} /> */}
+        </Routes>
         <Footer />
       </div>
    </>
