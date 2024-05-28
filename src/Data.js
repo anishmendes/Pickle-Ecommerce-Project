@@ -27,42 +27,42 @@ export const hwrapper = [
       name: "Saurav Poudel",
      
       desc: "Absolutely delicious! The perfect mix of tangy and spicy. Love that it's organic!",
-      cover: "./images/testo/t1.webp",
+      cover: "./src/assets/t1.webp",
     },
     {
       id: 2,
       name: "Prayush Niroula",
       
       desc: "Great flavor and very fresh. Delivery took a bit long, but worth the wait!",
-      cover: "./images/testo/t2.webp",
+      cover: "./src/assets/t2.webp",
     },
     {
       id: 3,
       name: "Rabin Belbase",
     
       desc: "Authentic taste, just like homemade. Packaging could be more eco-friendly.",
-      cover: "./images/testo/t3.webp",
+      cover: "./src/assets/t3.webp",
     },
     {
       id: 4,
       name: "Anish Mainali",
    
       desc: "Good pickles, but a bit too salty for me. Still, very fresh and crunchy.",
-      cover: "./images/testo/t4",
+      cover: "./src/assets/t4.png",
     },
     {
       id: 5,
       name: "Aditya Shrestha",
  
       desc: "Best pickles I've ever had! Organic and full of flavor. Highly recommend!",
-      cover: "./images/testo/t5",
+      cover:  "./src/assets/t5.png",
     },
     {
       id: 6,
       name: "Pragati Dahal",
     
       desc: "Tasty but a bit too vinegary for my liking. Love the organic ingredients though",
-      cover: "./images/testo/t6",
+      cover:  "./src/assets/t6.png",
     },
    
   ]
