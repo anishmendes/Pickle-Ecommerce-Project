@@ -34,31 +34,31 @@ const Footer = () => {
          <div className='flex flex-col'>
           <h2 className='text-2xl font-semibold text-white'>Shop Info</h2>
           <ul className='pt-8 text-xl text-white font-medium'>
-            <li>Aboutus</li>
-            <li>Contact Us </li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
-            <li>FAQS & Help</li>
+            <li className='pb-1'>Aboutus</li>
+            <li className='pb-1'>Contact Us </li>
+            <li className='pb-1'>Privacy Policy</li>
+            <li className='pb-1'>Terms & Conditions</li>
+            <li className='pb-1'>FAQS & Help</li>
           </ul>
           </div> 
-         <div className='flex flex-col'>
-         <h2 className='text-2xl font-semibold text-white'>Account</h2>
-          <ul className='pt-8 text-xl text-white font-medium'>
-           <li> My Account</li>
-            <li>Shop Details </li>
-            <li>Shopping Cart</li>
+         <div className='flex flex-col pb-[65px] '>
+         <h2 className='text-2xl font-semibold text-white '>Account</h2>
+          <ul className='pt-8  text-xl text-white font-medium '>
+           <li className='pb-1'> My Account</li>
+            <li className='pb-1'>Shop Details </li>
+            <li className='pb-1'>Shopping Cart</li>
           
           </ul>
           </div> 
-         <div className='flex flex-col'>
+         <div className='flex flex-col pb-[65px]'>
          
 
 
          <h2 className='text-2xl font-semibold text-white'>Contact</h2>
           <ul className='pt-8 text-xl text-white font-medium'>
-           <li>  Address: New Baneshwor, Kathmandu 44600</li>
-            <li>Email: gaunnko@gmail.com </li>
-            <li>Phone: (+977) 9808284192</li>
+           <li className='pb-1'>  Address: New Baneshwor, Kathmandu 44600</li>
+            <li className='pb-1'>Email: gaunnko@gmail.com </li>
+            <li className='pb-1'>Phone: (+977) 9808284192</li>
           
           </ul>
           </div> 
