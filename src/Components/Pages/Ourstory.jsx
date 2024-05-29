@@ -97,6 +97,7 @@ const Ourstory = () => {
     </p>
   </VerticalTimelineElement> */}
   <VerticalTimelineElement
+   date="Thank You"
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
     icon={<StarIcon />}
    
