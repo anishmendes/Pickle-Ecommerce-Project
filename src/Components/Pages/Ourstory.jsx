@@ -60,7 +60,7 @@ const Ourstory = () => {
     Srijana's thriving pickle business turned her into an inspiration, embodying resilience and determination. Her story touched many facing challenges, motivating them to pursue their dreams with courage. Through her journey, Srijana not only transformed her own life but also became a beacon of hope for others. Her achievements remind us that with passion and perseverance, any challenge can lead to greatness. Srijana stands as a testament to the potential within us all, waiting to be unlocked through hard work and belief in ourselves.
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="April 2013"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -71,8 +71,8 @@ const Ourstory = () => {
     <p>
       Strategy, Social Media
     </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
+  </VerticalTimelineElement> */}
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="November 2012"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -83,8 +83,8 @@ const Ourstory = () => {
     <p>
       Creative Direction, User Experience, Visual Design
     </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
+  </VerticalTimelineElement> */}
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2002 - 2006"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -95,11 +95,18 @@ const Ourstory = () => {
     <p>
       Creative Direction, Visual Design
     </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
     icon={<StarIcon />}
-  />
+   
+   >
+     <h3 className="vertical-timeline-element-title text-xl font-bold text-green-600">Be part our story</h3>
+    {/* <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4> */}
+    <p>
+    In the heart of tradition and taste, Gaunko Aachar brings the authentic flavors of homemade pickles straight to your doorstep. Inspired by age-old recipes and crafted with the finest ingredients, our pickles capture the essence of rustic culinary heritage. At Gaunko Aachar, we believe in preserving the rich cultural legacy of pickle making, offering a diverse range of mouthwatering aachars that promise to take you on a flavorful journey back to the simplicity and warmth of rural kitchens.
+    </p>
+    </VerticalTimelineElement>
 </VerticalTimeline>
     </div>
   )
