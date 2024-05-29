@@ -7,7 +7,10 @@
 // rows: 2,
 // slidesPerRow: 2
 
-import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
+import {   Pagination } from 'swiper/modules';
+
+import "swiper/swiper-bundle.css";
 
 const pickle = [
     {
@@ -108,28 +111,37 @@ const pickle = [
 const Slide = () => {
   return (
     <>
-      <h1 className='text-2xl pt-[50px] flex items-center justify-center font-bold'>Free Organic Pickle</h1>
-    <div className='flex flex-row  gap-[100px] justify-center item-center'>
+      <h1 className='text-2xl pt-[50px] flex items-center justify-center pl-[100px] font-bold pb-[100px]'>Free Organic Pickle</h1>
+      <div className="flex flex-row max-w-[1500px] pl-10">
+
+      <Swiper
+      modules={[Pagination]}
+      spaceBetween={40} // Adjust spacing between slides
+      slidesPerView={3} // Number of slides visible in the viewport
+      loop={true} // Enable infinite loop
+      pagination={true} // Enable navigation arrows
       
-       {pickle.map((val) => {
-          return (
-            <div className="flex items-center justify-around flex-col mt-[50px] max-w-[400px]  max-h-[650px] shadow-2xl" >
+      
+      >
+        {pickle.map((val, index) => (
+          <SwiperSlide key={index}>
+            <div className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px]">
               <div className="pr-[50px] ">
-                <img src={val.cover} alt='img'  className='flex max-w-[300px] max-h-[300px]'/>
+                <img src={val.cover} alt='img' className='flex max-w-[300px] max-h-[300px]' />
               </div>
               <div className="pt-6 pb-6 p-7">
                 <h1 className="text-xl font-bold text-green-400">{val.name}</h1>
                 <h3 className="text-xl mt-6 text-black">{val.desc}</h3>
               </div>
-        <div className='flex items-center  gap-[100px] flex-row pt-7 pb-6'>
-            <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>
-            <button className='border-2 border-yellow-400 rounded p-3 text-green-400 font-bold'> Add to Cart</button>
-        </div>
+              <div className='flex items-center gap-[100px] flex-row pt-7 pb-6'>
+                <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>
+                <button className='border-2 border-yellow-400 rounded p-3 text-green-400 font-bold'> Add to Cart</button>
+              </div>
             </div>
-          )
-        })}
-
-    </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+        </div>
     </>
   )
 }
