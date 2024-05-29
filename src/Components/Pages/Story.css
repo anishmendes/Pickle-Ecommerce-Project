@@ -1,0 +1,10 @@
+/* timeline.css */
+.vertical-timeline-element-date {
+    color: rgb(62, 9, 219); /* Change the text color */
+   
+  font-style: italic;
+    
+    font-weight: bolder; /* Optional: bold text */
+  }
+
+  

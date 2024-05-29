@@ -1,21 +1,52 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from '@mui/icons-material/Work';
-import SchoolIcon from '@mui/icons-material/School'; 
+import FlagIcon from '@mui/icons-material/Flag';
+import PeopleIcon from '@mui/icons-material/People';
 import StarIcon from '@mui/icons-material/Star'
+import ConstructionIcon from '@mui/icons-material/Construction';
+import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
+import './Story.css'
 
 const Ourstory = () => {
   return (
-    <div className='mt-[50px] flex items-center bg-gray-300'>
-     <VerticalTimeline>
+
+
+    <>
+       <div className='flex flex-row justify-around items-center mb-[40px]'>
+
+<div className='flex border-[30%] items-start pl-[20px] mt-[100px] pb-[100px] border border-[15px] '>
+  <img src="./src/assets/srijana.png" alt="person" className='h-[400px] w-[400px]'/>
+</div>
+<div className='flex flex-col pr-[80px] pt-[160px] pb-[60px] max-w-[550px]'>
+  <h1 className='text-2xl font-bold pb-6 text-green-500'>Who Are We?</h1>
+
+  <h2 className='text-xl font-medium pb-6 text-yellow-300'>It all started with her!</h2>
+
+  <p className='font-medium'>Srijana Aryal is an exemplary and inspirational woman who epitomizes resilience and determination in the face of adversity. As a single parent, she encountered financial crisis following the untimely demise of her husband. Despite the immense struggles she faced, Srijana refused to succumb to despair and demonstrated unwavering determination to create a better life for herself and her family.</p>
+</div>
+
+</div>
+
+
+
+
+
+    <div className='mt-[50px] flex items-center bg-gray-100 pt-[50px] pb-[50px]'>
+       
+
+      
+
+
+
+     <VerticalTimeline >
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--work "
     
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2009 - 2011" 
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<WorkIcon />}
+    icon={<FlagIcon />}
   >
     <h3 className="vertical-timeline-element-title text-xl font-bold text-green-600">Our Humble Beginnings</h3>
     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
@@ -26,10 +57,11 @@ const Ourstory = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2015-2016"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<WorkIcon />}
-  >
+    icon={<PeopleIcon />}
+    >
     <h3 className="vertical-timeline-element-title text-xl font-bold text-green-600">Dedication</h3>
     {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
     <p>
@@ -38,10 +70,11 @@ const Ourstory = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2017-2024"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<WorkIcon />}
-  >
+    icon={<ConstructionIcon />}
+    >
     <h3 className="vertical-timeline-element-title  text-xl font-bold text-green-600">Growth</h3>
     {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
     <p>
@@ -50,10 +83,11 @@ const Ourstory = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="Present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<WorkIcon />}
-  >
+    icon={<PersonAddAlt1Icon />}
+    >
     <h3 className="vertical-timeline-element-title text-xl font-bold text-green-600 ">Inspirational</h3>
     {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
     <p>
@@ -65,11 +99,11 @@ const Ourstory = () => {
     date="April 2013"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
-  >
+    >
     <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
     <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
     <p>
-      Strategy, Social Media
+    Strategy, Social Media
     </p>
   </VerticalTimelineElement> */}
   {/* <VerticalTimelineElement
@@ -78,10 +112,10 @@ const Ourstory = () => {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
+  <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
     <h4 className="vertical-timeline-element-subtitle">Certification</h4>
     <p>
-      Creative Direction, User Experience, Visual Design
+    Creative Direction, User Experience, Visual Design
     </p>
   </VerticalTimelineElement> */}
   {/* <VerticalTimelineElement
@@ -89,17 +123,18 @@ const Ourstory = () => {
     date="2002 - 2006"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<SchoolIcon />}
-  >
+    >
     <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
     <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
     <p>
-      Creative Direction, Visual Design
+    Creative Direction, Visual Design
     </p>
   </VerticalTimelineElement> */}
   <VerticalTimelineElement
+  contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
    date="Thank You"
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    icon={<StarIcon />}
+   iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+   icon={<StarIcon />}
    
    >
      <h3 className="vertical-timeline-element-title text-xl font-bold text-green-600">Be part our story</h3>
@@ -110,6 +145,7 @@ const Ourstory = () => {
     </VerticalTimelineElement>
 </VerticalTimeline>
     </div>
+     </>
   )
 }
 
