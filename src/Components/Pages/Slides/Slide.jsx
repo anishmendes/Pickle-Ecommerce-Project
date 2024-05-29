@@ -73,23 +73,33 @@ const pickle = [
     },
     {
         cover: "./src/assets/chilli_pickle.png",
-      name: "Lapsi Pickle",
-      desc: "Lapsi pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
+      name: "Mix Pickle",
+      desc: "Mix pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite",
     },
     {
         cover: "./src/assets/chilli_pickle.png",
-      name: "Lapsi Pickle",
-      desc: "Lapsi pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
+      name: "Mutton Pickle",
+      desc: "Mutton pickle:Each piece of tender mutton bursts with a rich medley of tangy, savory, and aromatic notes, creating an irresistible delight for pickle enthusiasts.",
     },
     {
         cover: "./src/assets/chilli_pickle.png",
-      name: "Lapsi Pickle",
-      desc: "Lapsi pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
+      name: "Imili Pickle",
+      desc: "Imili pickle: Infused with robust spices and a touch of vinegar, this imli pickle promises to elevate any meal with its intense and unforgettable taste.",
     },
     {
         cover: "./src/assets/chilli_pickle.png",
-      name: "Lapsi Pickle",
-      desc: "Lapsi pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
+      name: "Amala Pickle",
+      desc: "Amala pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
+    },
+    {
+        cover: "./src/assets/chilli_pickle.png",
+      name: "Gundruk Pickle",
+      desc: "Gundruk pickle: Each serving of fermented leafy greens bursts with a rich medley of tangy, earthy, and savory notes, creating an irresistible treat for pickle enthusiasts",
+    },
+    {
+        cover: "./src/assets/chilli_pickle.png",
+      name: "Tomato Pickle",
+      desc: "Tomato pickle: Infused with robust spices and a touch of vinegar, this tomato pickle promises to elevate any meal with its intense and unforgettable taste.",
     },
     
   ];
