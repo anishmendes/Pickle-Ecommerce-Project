@@ -45,19 +45,19 @@ const Ourstory = () => {
     <h3 className="vertical-timeline-element-title  text-xl font-bold text-green-600">Growth</h3>
     {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
     <p>
-      User Experience, Visual Design
+    As Srijana poured herself into her pickle-making venture, her business flourished steadily, fueled by glowing word-of-mouth reviews. Her kitchen became a bustling hub of creativity, where new flavors sparked from her innovative spirit. Soon, her pickles graced gourmet stores and local markets, enchanting food enthusiasts everywhere.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2006 - 2008"
+    date="Present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title text-xl font-bold text-green-600 ">Inspirational</h3>
+    {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
     <p>
-      User Experience, Visual Design
+    Srijana's thriving pickle business turned her into an inspiration, embodying resilience and determination. Her story touched many facing challenges, motivating them to pursue their dreams with courage. Through her journey, Srijana not only transformed her own life but also became a beacon of hope for others. Her achievements remind us that with passion and perseverance, any challenge can lead to greatness. Srijana stands as a testament to the potential within us all, waiting to be unlocked through hard work and belief in ourselves.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
