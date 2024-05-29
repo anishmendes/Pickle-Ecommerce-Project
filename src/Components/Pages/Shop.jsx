@@ -1,5 +1,9 @@
 import React from 'react'
 import Fresh from '../Fresh'
+
+import Slide from '../Pages/Slides/Slide'
+
+
 const Shop = () => {
   return (
     <div className='flex items-center flex-row justify-around'>
@@ -11,7 +15,7 @@ const Shop = () => {
      <button className='bg-customGray text-white  border-green-500 border-2 rounded-xl p-2 pl-6 pr-6 '>Search</button>
     </div>
 
-      
+      <Slide/>
      </div>
     </div>
   )
