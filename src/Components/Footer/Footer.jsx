@@ -4,7 +4,7 @@ import { faFacebookF, faTwitter, faInstagram, faWhatsapp } from '@fortawesome/fr
 
 const Footer = () => {
   return (
-    <div className='p-auto bg-green-800 mt-[100px]'>
+    <div className='p-auto bg-darkblue mt-[100px]'>
       <div className='flex flex-row items-center justify-center  pt-[50px] '>
       <h1 className='text-3xl font-bold pt-2 text-green-200 flex pr-10 '>GAUNKO AACHAR</h1>
          <input type='text' placeholder='Enter Your Email' className='p-3 w-[550px] rounded-xl text-black' />

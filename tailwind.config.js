@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         customGray: '#707070',
+        darkblue:'#39625A'
       },
       borderRadius: {
         '20p': '20%',
