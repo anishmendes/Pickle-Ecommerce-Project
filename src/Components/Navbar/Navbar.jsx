@@ -15,11 +15,12 @@ const Navbar = () => {
 
       <div className="flex justify-end ">
       <div className='bg-cyan-400  flex justify-evenly gap-[100px] mr-[60px] pt-4 pb-8' >
-         <a href="/">Home</a>
-         <a href="/">Our Story</a>
-         <a href="/">Shop</a>
-         <a href="/">Contact Us </a>
-         <a href="/">Checkout</a>
+        
+      <NavLink to="/">Home</NavLink>
+            <NavLink to="/Shop">Shop</NavLink>
+            <NavLink to="/Ourstory">Ourstory</NavLink>
+            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/Checkout">Checkout</NavLink>
       </div>
       </div>
    </div>
