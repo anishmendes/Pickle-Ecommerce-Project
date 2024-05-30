@@ -8,7 +8,7 @@
 // slidesPerRow: 2
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import {   Pagination } from 'swiper/modules';
+import { Grid, Pagination } from 'swiper/modules';
 
 import "swiper/swiper-bundle.css";
 
@@ -115,23 +115,27 @@ const Slide = () => {
       <div className="flex flex-row max-w-[1500px] pl-10">
 
       <Swiper
-      modules={[Pagination]}
-      spaceBetween={40} // Adjust spacing between slides
-      slidesPerView={3} // Number of slides visible in the viewport
-      loop={true} // Enable infinite loop
-      pagination={true} // Enable navigation arrows
+     slidesPerView={3}
+     grid={{
+       rows: 2,
+     }}
+     spaceBetween={5}
+     pagination={{
+       clickable: true,
+     }}
+     modules={[Grid, Pagination]}
       
-      
+      className="ml-auto mr-auto w-full max-h-[1350px] mb-[50px]"
       >
         {pickle.map((val, index) => (
           <SwiperSlide key={index}>
-            <div className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px]">
+            <div className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px] border border-green-500 ">
               <div className="pr-[50px] ">
                 <img src={val.cover} alt='img' className='flex max-w-[300px] max-h-[300px]' />
               </div>
               <div className="pt-6 pb-6 p-7">
-                <h1 className="text-xl font-bold text-green-400">{val.name}</h1>
-                <h3 className="text-xl mt-6 text-black">{val.desc}</h3>
+                <h1 className="text-xl font-bold text-green-700">{val.name}</h1>
+                <h3 className="text-xl pt-6 text-black">{val.desc}</h3>
               </div>
               <div className='flex items-center gap-[100px] flex-row pt-7 pb-6'>
                 <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>

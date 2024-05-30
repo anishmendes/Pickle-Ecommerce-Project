@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import {  NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import { faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +15,7 @@ const Navbar = () => {
         
         <span className='text-cyan-600  font-bold pr-[80px]'>+977 9876000000</span>
     </div>
-      <img src="./src/assets/logo.png" alt="logo"    className='max-h-[80px] w-[100px] '/>
+      <img src="./src/assets/logo.png" alt="logo"    className='max-h-[100px] w-[150px]  '/>
 
       <div className="flex justify-end">
       <div className="md:hidden flex items-center mr-4">
@@ -29,6 +31,11 @@ const Navbar = () => {
         <NavLink to="/Ourstory" className="text-center">Ourstory</NavLink>
         <NavLink to="/Contact" className="text-center">Contact</NavLink>
         <NavLink to="/Checkout" className="text-center">Checkout</NavLink>
+     
+      <div className='flex flex-wrap gap-[50px] pl-[50px]'>
+      <FontAwesomeIcon icon={faSearch} className="text-2xl text-white" />
+        <FontAwesomeIcon icon={faShoppingCart} className="text-2xl text-white" />
+      </div>
       </div>
     </div>
    </div>
