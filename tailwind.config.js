@@ -16,6 +16,9 @@ export default {
       borderRadius: {
         '20p': '20%',
       },
+      boxShadow: {
+        'hard': '10px 10px 0px 0px rgba(0,95,163,0.4)',
+      },
     },
   },
   plugins: [],

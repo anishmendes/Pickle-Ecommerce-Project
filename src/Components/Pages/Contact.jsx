@@ -22,7 +22,7 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
-        <div className="bg-white shadow-md rounded-lg p-6">
+        <div className="bg-white shadow-hard rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4 text-cyan-600 pb-6">Send Us a Message</h2>
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
