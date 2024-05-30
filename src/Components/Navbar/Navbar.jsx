@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-   <div className='flex flex-col bg-white  overflow-hidden'>
+    <div className='flex flex-col bg-white  overflow-hidden'>
     <div className='flex flex-row justify-around pl-[180px] pt-[30px]'>
     <span className=' text-cyan-600 font-bold '>Kathmandu,Nepal</span>
       <span className=' text-cyan-600 font-bold'>guankoachar@gmail.com</span>
