@@ -23,7 +23,7 @@ const Navbar = () => {
           </svg>
         </button>
       </div>
-      <div className={`bg-cyan-400 md:flex flex-col md:flex-row justify-evenly md:gap-[100px] gap-4 md:mr-[60px] mr-4 pt-4 pb-8 w-full md:w-auto ${isOpen ? 'flex' : 'hidden'} md:flex`}>
+      <div className={`bg-cyan-400 pl-[50px] pr-[50px] md:flex flex-col md:flex-row justify-evenly md:gap-[100px] gap-4 md:mr-[60px] mr-4 pt-4 pb-8 w-full md:w-auto ${isOpen ? 'flex' : 'hidden'} md:flex`}>
         <NavLink to="/" className="text-center">Home</NavLink>
         <NavLink to="/Shop" className="text-center">Shop</NavLink>
         <NavLink to="/Ourstory" className="text-center">Ourstory</NavLink>
