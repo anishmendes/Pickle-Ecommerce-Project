@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-cyan-600 pb-6">Send Us a Message</h2>
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
               Full Name
@@ -54,7 +54,7 @@ const Contact = () => {
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <label htmlFor="subject" className="block text-gray-700 font-semibold mb-2">
               Subject
             </label>
@@ -63,26 +63,26 @@ const Contact = () => {
               id="subject"
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
-          </div>
+          </div> */}
           <div className="mb-4">
             <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">
               Message
             </label>
             <textarea
               id="message"
-              rows="4"
+              rows="6"
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             ></textarea>
           </div>
           <button
             type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md mt-[60px]"
           >
             Send Message
           </button>
         </div>
       </div>
-      <div className="max-w-8xl  mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex justify-center space-x-6">
+      <div className="max-w-8xl  mx-auto px-4 sm:px-6 lg:px-8 mt-[100px] pb-[50px] flex justify-center space-x-6">
         {/* <div className="flex items-center text-gray-600">
           <svg
             className="w-8 h-8 mr-2"
@@ -108,7 +108,7 @@ const Contact = () => {
         </div> */}
         <div className="flex items-center text-gray-600">
           <svg
-            className="w-8 h-8 mr-2 "
+            className="w-8 h-8 mr-2 text-yellow-600 "
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -125,7 +125,7 @@ const Contact = () => {
         </div>
         <div className="flex items-center text-gray-600">
           <svg
-            className="w-8 h-8 mr-2"
+            className="w-8 h-8 mr-2 text-cyan-400"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -138,7 +138,7 @@ const Contact = () => {
               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
             />
           </svg>
-          <span >+977-1-4780000</span>
+          <span className='text-2xl font-semibold text-cyan-600'>+977-1-4780000</span>
         </div>
       </div>
     </div>
