@@ -129,7 +129,7 @@ const Slide = () => {
       >
         {pickle.map((val, index) => (
           <SwiperSlide key={index}>
-            <div className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px] border border-green-500 ">
+            <div className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px] border border-green-300 border-x-4 ">
               <div className="pr-[50px] ">
                 <img src={val.cover} alt='img' className='flex max-w-[300px] max-h-[300px]' />
               </div>
