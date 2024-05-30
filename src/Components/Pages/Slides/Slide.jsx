@@ -139,7 +139,7 @@ const Slide = () => {
               </div>
               <div className='flex items-center gap-[100px] flex-row pt-7 pb-6'>
                 <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>
-                <button className='border-2 border-yellow-400 rounded p-3 text-green-400 font-bold'> Add to Cart</button>
+                <button className='border-2 bg-yellow-400 text-white 0 rounded p-3  font-bold hover:border-yellow-400 hover:bg-yellow-200 hover:text-green-400  transition duration-300'> Add to Cart</button>
               </div>
             </div>
           </SwiperSlide>
