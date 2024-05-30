@@ -1,8 +1,10 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import {  NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className='flex flex-col bg-white  overflow-hidden'>
     <div className='flex flex-row justify-around pl-[180px] pt-[30px]'>
@@ -13,16 +15,22 @@ const Navbar = () => {
     </div>
       <img src="./src/assets/logo.png" alt="logo"    className='max-h-[80px] w-[100px] '/>
 
-      <div className="flex justify-end ">
-      <div className='bg-cyan-400  flex justify-evenly gap-[100px] mr-[60px] pt-4 pb-8' >
-        
-      <NavLink to="/">Home</NavLink>
-            <NavLink to="/Shop">Shop</NavLink>
-            <NavLink to="/Ourstory">Ourstory</NavLink>
-            <NavLink to="/Contact">Contact</NavLink>
-            <NavLink to="/Checkout">Checkout</NavLink>
+      <div className="flex justify-end">
+      <div className="md:hidden flex items-center mr-4">
+        <button onClick={() => setIsOpen(!isOpen)}>
+          <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
       </div>
+      <div className={`bg-cyan-400 md:flex flex-col md:flex-row justify-evenly md:gap-[100px] gap-4 md:mr-[60px] mr-4 pt-4 pb-8 w-full md:w-auto ${isOpen ? 'flex' : 'hidden'} md:flex`}>
+        <NavLink to="/" className="text-center">Home</NavLink>
+        <NavLink to="/Shop" className="text-center">Shop</NavLink>
+        <NavLink to="/Ourstory" className="text-center">Ourstory</NavLink>
+        <NavLink to="/Contact" className="text-center">Contact</NavLink>
+        <NavLink to="/Checkout" className="text-center">Checkout</NavLink>
       </div>
+    </div>
    </div>
   )
 }
