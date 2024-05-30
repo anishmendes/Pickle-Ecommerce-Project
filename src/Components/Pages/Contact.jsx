@@ -7,8 +7,8 @@ const Contact = () => {
         <div className="bg-gray-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-3xl font-semibold mb-4 text-green-500">Gaunko Aachar</h2>
-          <p className="text-gray-600 mb-4">New Baneshwor, kathmandu</p>
+          <h2 className="text-3xl font-bold mb-4 text-green-600">Gaunko Aachar</h2>
+          <p className="text-cyan-700 mb-4  text-xl pl-1">New Baneshwor, kathmandu</p>
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8152529835517!2d85.31909031430198!3d27.698599982828823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a9598a1d2b%3A0xa9c8b8e7d2e046d8!2sAntarikshya%20School!5e0!3m2!1sen!2snp!4v1683102678190!5m2!1sen!2snp"
@@ -83,7 +83,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="max-w-8xl  mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex justify-center space-x-6">
-        <div className="flex items-center text-gray-600">
+        {/* <div className="flex items-center text-gray-600">
           <svg
             className="w-8 h-8 mr-2"
             fill="none"
@@ -105,7 +105,7 @@ const Contact = () => {
             />
           </svg>
           <span>antarikshya@school.edu</span>
-        </div>
+        </div> */}
         <div className="flex items-center text-gray-600">
           <svg
             className="w-8 h-8 mr-2 "
@@ -121,7 +121,7 @@ const Contact = () => {
               d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
             />
           </svg>
-          <span>contact@antarikshya.edu</span>
+          <span className='text-2xl font-semibold text-green-600'>Ghaunkoaachar@gmail.com</span>
         </div>
         <div className="flex items-center text-gray-600">
           <svg
@@ -138,7 +138,7 @@ const Contact = () => {
               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
             />
           </svg>
-          <span>+977-1-4780000</span>
+          <span >+977-1-4780000</span>
         </div>
       </div>
     </div>
