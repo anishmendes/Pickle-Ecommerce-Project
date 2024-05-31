@@ -30,7 +30,7 @@ const Fresh = () => {
       
        {pickle.map((val) => {
           return (
-            <div className="flex items-center justify-around flex-col mt-[50px] max-w-[400px]  max-h-[650px] shadow-2xl" >
+            <div className="flex items-center justify-around flex-col mt-[50px] max-w-[400px]  max-h-[650px] shadow-2xl " >
               <div className="pr-[50px] ">
                 <img src={val.cover} alt='img'  className='flex max-w-[300px] max-h-[300px]'/>
               </div>
