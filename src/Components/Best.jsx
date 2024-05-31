@@ -4,22 +4,22 @@ import React from 'react'
 
 const best = [
     {
-        cover: "./src/assets/akhabare_pickle.png",
+        cover: "./src/assets/akbore.jpg",
       name: "Akhabare Pickle",
       
     },
     {
-        cover: "./src/assets/chicken_pickle.png",
+        cover: "./src/assets/chicken.jpg",
       name: "Chicken  Pickle",
       
     },
     {
-        cover: "./src/assets/mutton_pickle.png",
+        cover: "./src/assets/mutton.jpg",
       name: "Mutton Pickle",
       
     },
     {
-        cover: "./src/assets/chilli_pickle.png",
+        cover: "./src/assets/chilly.jpg",
       name: "Chilli Pickle",
       
     },
@@ -34,12 +34,12 @@ const Best = () => {
       
       {best.map((val) => {
          return (
-           <div className="flex items-center justify-around flex-col mt-[50px] max-w-[400px]   max-h-[650px] shadow-2xl" >
-             <div >
+           <div className="flex items-center bg-yellow-400 justify-around flex-col mt-[50px] max-w-[400px]   max-h-[650px] shadow-2xl" >
+             <div  >
                <img src={val.cover} alt='img'  className='flex max-w-[300px] max-h-[300px]'/>
              </div>
              <div className="pt-6 pb-6 p-7">
-               <h1 className="text-xl font-bold text-white bg-slate-500 border rounded p-2 ">{val.name}</h1>
+               <h1 className="text-xl font-bold text-white cursor-pointer  hover:bg-yellow-100 hover:text-black  border border-yellow-800 rounded p-2 ">{val.name}</h1>
               
              </div>
      
