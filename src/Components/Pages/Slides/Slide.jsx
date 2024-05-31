@@ -123,6 +123,7 @@ const Slide = () => {
      pagination={{
        clickable: true,
      }}
+     loop={true} 
      modules={[Grid, Pagination]}
       
       className="ml-auto mr-auto w-full max-h-[1350px] mb-[50px]"
