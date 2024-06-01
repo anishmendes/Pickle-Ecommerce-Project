@@ -39,7 +39,7 @@ const Best = () => {
                <img src={val.cover} alt='img'  className='flex max-w-[300px] max-h-[300px]'/>
              </div>
              <div className="pt-6 pb-6 p-7">
-               <h1 className="text-xl font-bold text-white cursor-pointer  hover:bg-yellow-100 hover:text-black  border border-yellow-800 rounded p-2 ">{val.name}</h1>
+               <h1 className="text-xl font-bold text-green-500 cursor-pointer  hover:bg-yellow-100 hover:text-black  border border-white border-[3px] rounded p-2 ">{val.name}</h1>
               
              </div>
      
