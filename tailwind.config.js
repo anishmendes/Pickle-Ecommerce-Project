@@ -11,7 +11,9 @@ export default {
       },
       colors: {
         customGray: '#707070',
-        darkblue:'#39625A'
+        darkblue:'#39625A',
+        navbar:'rgb(253, 228, 158)',
+        navbar1:'rgb(254, 185, 65)'
       },
       borderRadius: {
         '20p': '20%',
@@ -19,6 +21,7 @@ export default {
       boxShadow: {
         'hard': '10px 10px 0px 0px rgba(0,95,163,0.4)',
       },
+
     },
   },
   plugins: [],
