@@ -13,7 +13,8 @@ export default {
         customGray: '#707070',
         darkblue:'#39625A',
         navbar:'rgb(253, 228, 158)',
-        navbar1:'rgb(254, 185, 65)'
+        navbar1:'rgb(254, 185, 65)',
+        hard:'rgb(221, 118, 28)'
       },
       borderRadius: {
         '20p': '20%',
