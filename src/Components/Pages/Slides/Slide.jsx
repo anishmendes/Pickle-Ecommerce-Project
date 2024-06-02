@@ -112,7 +112,7 @@ const Slide = () => {
   return (
     <>
       <h1 className='text-2xl pt-[50px] flex items-center justify-center pl-[100px] font-bold pb-[100px]'>Free Organic Pickle</h1>
-      <div className="flex flex-row max-w-[1500px] pl-10">
+      <div className="flex flex-row max-w-[1500px] pt-[50px] pl-10 bg-navbar" >
 
       <Swiper
      slidesPerView={3}
