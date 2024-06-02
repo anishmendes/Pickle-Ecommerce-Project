@@ -32,7 +32,7 @@ const Ourstory = () => {
 
 
 
-    <div className='mt-[50px] flex items-center bg-gray-100 pt-[50px] pb-[50px]'>
+    <div className='mt-[50px] flex items-center bg-navbar1 pt-[50px] pb-[50px]'>
        
 
       
