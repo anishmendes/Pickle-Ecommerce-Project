@@ -34,12 +34,12 @@ const Best = () => {
       
       {best.map((val) => {
          return (
-           <div className="flex items-center bg-yellow-400 justify-around flex-col mt-[50px] max-w-[400px]   max-h-[650px] shadow-2xl" >
+           <div className="flex items-center bg-navbar1 justify-around flex-col mt-[50px] max-w-[400px]   max-h-[650px] shadow-2xl" >
              <div  >
                <img src={val.cover} alt='img'  className='flex max-w-[300px] max-h-[300px]'/>
              </div>
              <div className="pt-6 pb-6 p-7">
-               <h1 className="text-xl font-bold text-green-500 cursor-pointer  hover:bg-yellow-100 hover:text-black  border border-white border-[3px] rounded p-2 ">{val.name}</h1>
+               <h1 className="text-xl font-bold text-black cursor-pointer  hover:bg-yellow-100 hover:text-black  border border-hard border-[3px] rounded p-2 ">{val.name}</h1>
               
              </div>
      
