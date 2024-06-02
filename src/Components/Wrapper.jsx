@@ -4,7 +4,7 @@ import React from 'react'
 
 const Wrapper = () => {
   return (
-    <section className="bg-navbar1 flex ">
+    <section className="bg-customGray flex ">
     
       <div className="flex items-center gap-[150px] pl-[180px] pt-8 pb-8">
         {hwrapper.map((val) => {
