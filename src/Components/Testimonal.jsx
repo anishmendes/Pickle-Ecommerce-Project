@@ -28,7 +28,7 @@ const Testimonal = () => {
             <SwiperSlide key={index} className=' flex   justify- center '>
               <motion.div
                 whileHover={{ scale: 0.93 }}
-                className=' flex flex-col  pb-[100px] p-[40px] rounded border-[10px] text-center border border-green-200 max-h-[350px]' 
+                className=' flex flex-col  pb-[100px] p-[40px] rounded border-[10px] text-center bg-navbar border border-hard   max-h-[350px]' 
               >
                 <div className=' flex'>
                   <div className='img'>
@@ -37,7 +37,7 @@ const Testimonal = () => {
                     <i className='fa fa-quote-left icon'></i>
                   </div>
                   <div className='p-[20px] flex items-center'>
-                    <h2 className='text-2xl font-semibold text-green-800'>{val.name}</h2>
+                    <h2 className='text-2xl font-semibold text-customGray'>{val.name}</h2>
                     
                   </div>
                 </div>
