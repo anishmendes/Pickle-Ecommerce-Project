@@ -2,7 +2,7 @@ import React from 'react'
 import Fresh from '../Fresh'
 
 import Slide from '../Pages/Slides/Slide'
-
+import '../../App.css';
 
 const Shop = () => {
   return (

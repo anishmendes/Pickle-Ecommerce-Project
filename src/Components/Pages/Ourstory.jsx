@@ -7,13 +7,13 @@ import StarIcon from '@mui/icons-material/Star'
 import ConstructionIcon from '@mui/icons-material/Construction';
 import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 import './Story.css'
-
+import '../../App.css';
 const Ourstory = () => {
   return (
 
 
     <>
-       <div className='flex flex-row justify-around items-center mb-[40px]'>
+       <div className='flex flex-row justify-around items-center mb-[40px] mt-[40px] bg-customGray'>
 
 <div className='flex border-[30%] items-start pl-[20px] mt-[100px] pb-[100px] border border-[15px] '>
   <img src="./src/assets/srijana.png" alt="person" className='h-[400px] w-[400px]'/>

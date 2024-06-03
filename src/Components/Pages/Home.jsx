@@ -3,7 +3,7 @@ import Wrapper from '../Wrapper'
 import Fresh from '../Fresh'
 import Best from '../Best'
 import Testimonal from '../Testimonal'
-
+import '../../App.css';
 const Home = () => {
   return (
     <div>

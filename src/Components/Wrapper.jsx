@@ -1,6 +1,7 @@
 import { hwrapper } from "../Data";
 
 import React from 'react'
+import '../App.css'
 
 const Wrapper = () => {
   return (

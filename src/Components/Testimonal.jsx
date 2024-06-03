@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { testimonal } from '../Data'
 
-
+import '../App.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import {  Navigation } from 'swiper/modules';
 import "swiper/swiper-bundle.css";
