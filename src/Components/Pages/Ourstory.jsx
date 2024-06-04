@@ -13,15 +13,15 @@ const Ourstory = () => {
 
 
     <>
-       <div className='flex flex-row justify-around items-center mb-[40px] mt-[40px] bg-customGray'>
+       <div className='flex flex-row justify-around items-center mb-[40px] mt-[40px] bg-navbar text-black'>
 
-<div className='flex border-[30%] items-start pl-[20px] mt-[100px] pb-[100px] border border-[15px] '>
+<div className='flex border-[30%] items-start pl-[20px] mt-[100px] pb-[100px] border border-[15px] border-hard '>
   <img src="./src/assets/srijana.png" alt="person" className='h-[400px] w-[400px]'/>
 </div>
 <div className='flex flex-col pr-[80px] pt-[160px] pb-[60px] max-w-[550px]'>
-  <h1 className='text-2xl font-bold pb-6 text-green-500'>Who Are We?</h1>
+  <h1 className='text-2xl font-bold pb-6 text-green-800'>Who Are We?</h1>
 
-  <h2 className='text-xl font-medium pb-6 text-yellow-300'>It all started with her!</h2>
+  <h2 className='text-xl font-medium pb-6 text-hard'>It all started with her!</h2>
 
   <p className='font-medium'>Srijana Aryal is an exemplary and inspirational woman who epitomizes resilience and determination in the face of adversity. As a single parent, she encountered financial crisis following the untimely demise of her husband. Despite the immense struggles she faced, Srijana refused to succumb to despair and demonstrated unwavering determination to create a better life for herself and her family.</p>
 </div>
