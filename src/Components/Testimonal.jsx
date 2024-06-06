@@ -8,9 +8,13 @@ import {  Navigation } from 'swiper/modules';
 import "swiper/swiper-bundle.css";
 
 
+
+
 const Testimonal = () => {
   return (
-    <div className='p-[40px] mt-[50px]'>
+    <motion.div
+    whileInView={{ opacity: [0, 1], scale: 1, y: [-200, 0], transition: { duration: 0.8, delay: 0.8 } }} 
+    className='p-[40px] mt-[50px]'>
          <h1 className='text-2xl pt-[20px] pb-[50px] flex items-center justify-center font-bold'>What Do Our Cilents Say About Us?</h1>
       
        
@@ -46,7 +50,7 @@ const Testimonal = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </motion.div>
     
    
   )
