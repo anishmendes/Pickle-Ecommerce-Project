@@ -13,7 +13,7 @@ const Ourstory = () => {
 
 
     <>
-       <div className='flex flex-row justify-around items-center mb-[40px] mt-[40px] bg-navbar text-black'>
+       <div className='flex flex-row justify-around items-center mb-[40px] mt-[40px]  text-black '>
 
 <div className='flex border-[30%] items-start pl-[20px] mt-[100px] pb-[100px] border border-[15px] border-hard '>
   <img src="./src/assets/srijana.png" alt="person" className='h-[400px] w-[400px]'/>
@@ -32,7 +32,7 @@ const Ourstory = () => {
 
 
 
-    <div className='mt-[50px] flex items-center bg-navbar1 pt-[50px] pb-[50px]'>
+    <div className='mt-[50px] flex items-center bg-customGray pt-[50px] pb-[50px]'>
        
 
       
