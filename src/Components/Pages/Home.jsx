@@ -4,6 +4,8 @@ import Fresh from '../Fresh'
 import Best from '../Best'
 import Testimonal from '../Testimonal'
 import '../../App.css';
+import { motion } from 'framer-motion';
+
 const Home = () => {
   return (
     <div>
@@ -24,7 +26,11 @@ const Home = () => {
         <Fresh/>
 
         {/* 15% PAGE */}
-        <div className='flex flex-row items-center justify-between bg-navbar mt-[100px]'>
+        <motion.div
+        
+        whileHover={{ scale: 1.1, y: -10 }}
+        whileInView={{ opacity: [0, 1], scale: 1, x: 0, transition: { duration: 0.5, delay: 0.5 } }} 
+        className='flex flex-row items-center justify-between bg-navbar mt-[100px]'>
         
 
 
@@ -42,7 +48,7 @@ const Home = () => {
             <img src="./src/assets/pickle.png" alt="pickle" className='h-[350px] w-[550px] ' />
           </div>
 
-        </div>
+        </motion.div>
 
         <Best/>
         <Testimonal/>

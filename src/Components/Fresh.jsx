@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import { motion } from 'framer-motion';
 const pickle = [
     {
         cover: "./src/assets/akbore.jpg",
@@ -30,7 +31,13 @@ const Fresh = () => {
       
        {pickle.map((val) => {
           return (
-            <div className="flex items-center justify-around flex-col mt-[50px] max-w-[400px]  max-h-[650px] shadow-2xl bg-navbar " >
+            <motion.div 
+            whileHover={{ scale: 0.9 }}
+            whileTap={{ scale: 1.1 }}
+            drag="x"
+            dragConstraints={{ left: -100, right: 100 }}
+            
+            className="flex items-center justify-around flex-col mt-[50px]  max-w-[400px]  max-h-[700px] shadow-2xl bg-navbar " >
               <div >
                 <img src={val.cover} alt='img'  className='w-full max-h-[380px] object-cover'/>
               </div>
@@ -42,7 +49,7 @@ const Fresh = () => {
             <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>
             <button className='border-2 border-yellow-400 rounded p-3 text-green-400 font-bold'> Add to Cart</button>
         </div>
-            </div>
+            </motion.div>
           )
         })}
 
