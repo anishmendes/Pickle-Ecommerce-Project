@@ -12,8 +12,8 @@ const Shop = () => {
      <h1 className=' flex  text-2xl pl-[100px] font-bold pb-4 '>Our Products</h1>
 
 <div className='flex flex-row gap-0 pl-[100px]   gap-1 pr-8 pb-[50px] '>
-      <input type='text' placeholder='Name of the pickle' className='p-3 w-[550px] border border-green-600 rounded-xl text-black ' />
-     <button className='bg-customGray text-white  border-green-500 border-2 rounded-xl p-2 pl-6 pr-6 '>Search</button>
+      <input type='text' placeholder='Name of the pickle' className='p-3 w-[550px] border border-hard rounded-xl text-black ' />
+     <button className='bg-customGray text-white  border-hard border-2 rounded-xl p-2 pl-6 pr-6 '>Search</button>
     </div>
 
       <Slide/>

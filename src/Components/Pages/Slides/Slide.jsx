@@ -138,7 +138,7 @@ const Slide = () => {
               whileTap={{ scale: 1.1 }}
             
             
-            className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px] border border-green-300 border-x-4 ">
+            className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px] border border-hard border-x-4 ">
               <div className="pr-[50px] ">
                 <img src={val.cover} alt='img' className='flex max-w-[300px] max-h-[300px]' />
               </div>
@@ -147,8 +147,8 @@ const Slide = () => {
                 <h3 className="text-xl pt-6 text-black">{val.desc}</h3>
               </div>
               <div className='flex items-center gap-[100px] flex-row pt-7 pb-6'>
-                <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>
-                <button className='border-2 bg-yellow-400 text-white 0 rounded p-3  font-bold hover:border-yellow-400 hover:bg-yellow-200 hover:text-green-400  transition duration-300'> Add to Cart</button>
+                <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-navbar1'>RS</span> 450</span>
+                <button className='border-2 bg-hard text-white 0 rounded p-3  font-bold hover:border-yellow-400 hover:bg-navbar1 hover:text-white transition duration-300'> Add to Cart</button>
               </div>
             </motion.div>
           </SwiperSlide>
