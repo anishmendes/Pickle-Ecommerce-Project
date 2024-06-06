@@ -21,6 +21,7 @@ const Ourstory = () => {
 
 <motion.div
  whileInView={{ opacity: [0, 1], scale: 1, x: [-300, 0], transition: { duration: 0.7, delay: 0.7 } }} 
+ whileHover={{ scale: 0.9, y: -10 }}
 
 className='flex border-[30%] items-start pl-[20px] mt-[100px] pb-[100px] border border-[5px] border-hard '>
   <img src="./src/assets/srijana.png" alt="person" className='h-[400px] w-[400px]'/>
