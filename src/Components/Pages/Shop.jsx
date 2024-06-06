@@ -4,9 +4,10 @@ import Fresh from '../Fresh'
 import Slide from '../Pages/Slides/Slide'
 import '../../App.css';
 
+
 const Shop = () => {
   return (
-    <div className='flex items-center flex-row justify-around'>
+    <div className='flex items-center flex-row justify-around '>
      <div className='flex  flex-col items-start mt-[100px] pr-[100px]'>
      <h1 className=' flex  text-2xl pl-[100px] font-bold pb-4 '>Our Products</h1>
 

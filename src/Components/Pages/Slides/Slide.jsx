@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Grid, Pagination } from 'swiper/modules';
 
 import "swiper/swiper-bundle.css";
+import { motion } from 'framer-motion'
 
 const pickle = [
     {
@@ -110,9 +111,11 @@ const pickle = [
 
 const Slide = () => {
   return (
-    <>
+    <motion.span 
+    whileInView={{ opacity: [0, 1], scale: 1, x: [800, 0], transition: { duration: 0.5, delay: 0.8 } }}
+    >
       <h1 className='text-2xl pt-[50px] flex items-center justify-center pl-[100px] font-bold pb-[100px]'>Free Organic Pickle</h1>
-      <div className="flex flex-row max-w-[1500px] pt-[50px] pl-10 bg-navbar" >
+      <div className="flex flex-row max-w-[1500px] pt-[50px] pl-10 " >
 
       <Swiper
      slidesPerView={3}
@@ -130,7 +133,12 @@ const Slide = () => {
       >
         {pickle.map((val, index) => (
           <SwiperSlide key={index}>
-            <div className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px] border border-green-300 border-x-4 ">
+            <motion.div
+              whileHover={{ scale: 0.9 }}
+              whileTap={{ scale: 1.1 }}
+            
+            
+            className="flex items-center justify-around flex-col  max-w-[400px]  max-h-[650px] shadow-2xl  pb-[10px] mb-[80px] border border-green-300 border-x-4 ">
               <div className="pr-[50px] ">
                 <img src={val.cover} alt='img' className='flex max-w-[300px] max-h-[300px]' />
               </div>
@@ -142,12 +150,12 @@ const Slide = () => {
                 <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>
                 <button className='border-2 bg-yellow-400 text-white 0 rounded p-3  font-bold hover:border-yellow-400 hover:bg-yellow-200 hover:text-green-400  transition duration-300'> Add to Cart</button>
               </div>
-            </div>
+            </motion.div>
           </SwiperSlide>
         ))}
       </Swiper>
         </div>
-    </>
+    </motion.span>
   )
 }
 
