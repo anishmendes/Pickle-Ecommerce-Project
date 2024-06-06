@@ -24,7 +24,7 @@ const Home = () => {
         <Fresh/>
 
         {/* 15% PAGE */}
-        <div className='flex flex-row items-center justify-between bg-customGray mt-[100px]'>
+        <div className='flex flex-row items-center justify-between bg-navbar mt-[100px]'>
         
 
 
