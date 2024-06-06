@@ -28,8 +28,8 @@ const Home = () => {
         {/* 15% PAGE */}
         <motion.div
         
-        whileHover={{ scale: 1.1, y: -10 }}
-        whileInView={{ opacity: [0, 1], scale: 1, x: 0, transition: { duration: 0.5, delay: 0.5 } }} 
+        
+        whileInView={{ opacity: [0, 1], scale: 1, x: [-200, 0], transition: { duration: 0.7, delay: 0.7 } }} 
         className='flex flex-row items-center justify-between bg-navbar mt-[100px]'>
         
 
@@ -38,15 +38,18 @@ const Home = () => {
           <div className='flex flex-col items-center pl-[100px]  pb-[80px] pt-[80px] max-w-[500px] ' >
             <h1 className='text-2xl font-bold pb-4'>100% Organic pickle in our store</h1>
             <p className='text-xl  pb-6'>Handcrafted with locally sourced ingredients, our 100% organic pickle delivers authentic flavors while promoting sustainability and environmental consciousness.</p>
-            <div className='flex flex-row gap-0 pl-[100px] items-center  '>
-            <input type='text' placeholder='Name of the pickle' className='p-3 w-[550px] rounded-xl text-black' />
+            <div className='flex flex-row gap-1 pl-[150px] items-center  '>
+            <input type='text' placeholder='Name of the pickle' className='p-4 w-[550px] rounded-xl text-black' />
            <button className='bg-customGray text-white  border-green-500 border-2 rounded-xl p-2 pl-6 pr-6 '>Search</button>
           </div>
           </div>
 
-          <div className='flex items-end rounded pr-[50px] pt-8 pb-10'>
+          <motion.div
+          whileHover={{ scale: 0.9, y: -10 }}
+          
+          className='flex items-end rounded pr-[50px] pt-8 pb-10'>
             <img src="./src/assets/pickle.png" alt="pickle" className='h-[350px] w-[550px] ' />
-          </div>
+          </motion.div>
 
         </motion.div>
 
