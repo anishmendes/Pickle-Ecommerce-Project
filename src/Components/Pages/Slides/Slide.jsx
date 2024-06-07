@@ -1,12 +1,3 @@
-// className: "center",
-// centerMode: true,
-// infinite: true,
-// centerPadding: "60px",
-// slidesToShow: 3,
-// speed: 500,
-// rows: 2,
-// slidesPerRow: 2
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Grid, Pagination } from 'swiper/modules';
 
