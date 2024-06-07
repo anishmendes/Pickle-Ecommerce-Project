@@ -34,7 +34,9 @@ const Navbar = () => {
      
       <div className='flex flex-wrap gap-[50px] pl-[50px]'>
       <FontAwesomeIcon icon={faSearch} className="text-2xl text-white" />
-        <FontAwesomeIcon icon={faShoppingCart} className="text-2xl text-white" />
+      <NavLink to="/Cart">
+  <FontAwesomeIcon icon={faShoppingCart} className="text-2xl text-white" />
+</NavLink>
       </div>
       </div>
     </div>
