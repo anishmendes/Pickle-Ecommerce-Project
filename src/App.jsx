@@ -6,6 +6,7 @@ import Ourstory from './Components/Pages/Ourstory';
 import Contact from './Components/Pages/Contact';
 import Checkout from './Components/Pages/Checkout';
 import Cart from './Components/Pages/Cart';
+import SingleProduct from './Components/Pages/SingleProduct';
 import {  Routes, Route, Navigate} from 'react-router-dom';
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
             <Route path='/Contact'  element={<Contact/>} />
             <Route path='/Checkout'  element={<Checkout/>} />
             <Route path='/Cart' element={<Cart/>}/>
-            
+            <Route path='/singleproduct/:id' element={<SingleProduct/>}/>
             <Route path='*' element={<Navigate to='/' />} />
             
         </Routes>
