@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='flex flex-col bg-navbar  overflow-hidden'>
+    <div className='overflow-hidden'>
     {/* <div className='flex flex-row justify-around pl-[180px] pt-[30px]'>
     <span className=' text-cyan-600 font-bold '>Kathmandu,Nepal</span>
       <span className=' text-cyan-600 font-bold'>guankoachar@gmail.com</span>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <span className='text-cyan-600  font-bold pr-[80px]'>+977 9876000000</span>
     </div> */}
 
-      <img src="./src/assets/logo.png" alt="logo"    className='max-h-[100px] w-[150px]  '/>
+      {/* <img src="./src/assets/logo.png" alt="logo"    className='max-h-[100px] w-[150px]  '/> */}
       <div className="flex justify-end">
       <div className="md:hidden flex items-center mr-4">
         <button onClick={() => setIsOpen(!isOpen)}>
