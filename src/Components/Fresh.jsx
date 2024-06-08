@@ -46,7 +46,7 @@ const Fresh = () => {
                 <h3 className="text-xl mt-6 text-black">{val.desc}</h3>
               </div>
         <div className='flex items-center  gap-[100px] flex-row  pb-[120px]'>
-            <span className='text-green-700 text-xl pr-[50px] font-bold'><span className='text-yellow-400'>RS</span> 450</span>
+            <span className='text-customGray text-xl pr-[50px] font-bold'><span className='text-navbar1'>RS</span> 450</span>
             <button className='border-2 bg-hard text-white 0 rounded p-3   font-bold hover:border-yellow-400 hover:bg-navbar1 hover:text-white transition duration-300'> Add to Cart</button>
         </div>
             </motion.div>
