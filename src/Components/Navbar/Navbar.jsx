@@ -16,8 +16,9 @@ const Navbar = () => {
         <span className='text-cyan-600  font-bold pr-[80px]'>+977 9876000000</span>
     </div> */}
 
-      {/* <img src="./src/assets/logo.png" alt="logo"    className='max-h-[100px] w-[150px]  '/> */}
+      {/* */}
       <div className="flex justify-end">
+      <img src="./src/assets/logo.png" alt="logo"    className='max-h-[100px] w-[150px]  '/> 
       <div className="md:hidden flex items-center mr-4">
         <button onClick={() => setIsOpen(!isOpen)}>
           <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
