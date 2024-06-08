@@ -42,7 +42,7 @@ const Fresh = () => {
                 <img src={val.cover} alt='img'  className='w-full max-h-[380px] object-cover'/>
               </div>
               <div className="pt-6 pb-6 p-7">
-                <h1 className="text-xl font-bold text-green-400">{val.name}</h1>
+                <h1 className="text-xl font-bold text-hard">{val.name}</h1>
                 <h3 className="text-xl mt-6 text-black">{val.desc}</h3>
               </div>
         <div className='flex items-center  gap-[100px] flex-row  pb-[120px]'>
