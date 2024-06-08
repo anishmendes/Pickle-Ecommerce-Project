@@ -69,7 +69,10 @@ const Navbar = () => {
       </motion.div>
      
       <div className='flex flex-wrap gap-[50px] pl-[50px]'>
+        <NavLink  to="/Shop">
+
       <FontAwesomeIcon icon={faSearch} className="text-2xl text-white" />
+        </NavLink>
       <NavLink to="/Cart">
   <FontAwesomeIcon icon={faShoppingCart} className="text-2xl text-white" />
 </NavLink>
