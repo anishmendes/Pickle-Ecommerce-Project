@@ -26,7 +26,7 @@ const Navbar = () => {
           </svg>
         </button>
       </div>
-      <div className={`bg-navbar1 mt-[10px] rounded-[20px] text-green-800 font-semibold  pl-[50px] pr-[50px] md:flex flex-col md:flex-row justify-evenly md:gap-[100px] gap-4 md:mr-[60px] mr-4 pt-8 pb-8 w-full md:w-auto ${isOpen ? 'flex' : 'hidden'} md:flex`}>
+      <div className={`bg-navbar1 mt-[10px] rounded-[20px] text-white font-semibold  pl-[50px] pr-[50px] md:flex flex-col md:flex-row justify-evenly md:gap-[100px] gap-4 md:mr-[60px] mr-4 pt-8 pb-8 w-full md:w-auto ${isOpen ? 'flex' : 'hidden'} md:flex`}>
       <motion.div
         whileHover={{ scale: 1.1, color: '#FDE49E' }}
         whileTap={{ scale: 0.9,  transition: { duration: 0.3 } }}
