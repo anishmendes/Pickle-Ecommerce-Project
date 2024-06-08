@@ -18,8 +18,8 @@ const Home = () => {
         <p className='text-xl pt-4'>Welcome to Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nobis eos sint cum voluptatem numquam sunt est sit provident repellat! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor deleniti similique qui cumque maxime, exercitationem dolore. Magnam quidem neque quaerat.</p>
         <button className='bg-hard text-white mt-[50px] border-navbar border-2 rounded-xl p-2 pl-6 pr-6  '>Buy Now</button>
         </div> 
-        <div className='absolute flex right-0   mr-[100px] pt-[150px]'>
-          <img src="./src/assets/pickle.png" alt="pickle" className='h-[650px] w-[550px] ' />
+        <div className='absolute flex right-0   mr-[100px] pt-[100px]'>
+          <img src="./src/assets/pickle.png" alt="pickle" className='h-[550px] w-[500px] ' />
         </div>
     </div>
         <Wrapper/>
