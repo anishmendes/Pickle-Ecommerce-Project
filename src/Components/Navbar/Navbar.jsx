@@ -68,7 +68,12 @@ const Navbar = () => {
         </NavLink>
       </motion.div>
      
-      <div className='flex flex-wrap gap-[50px] pl-[50px]'>
+      <motion.div
+        whileHover={{ scale: 1.1, color: '#FDE49E' }}
+        whileTap={{ scale: 0.9, transition: { duration: 0.3 } }}
+      
+      className='flex flex-wrap gap-[50px] pl-[50px]'>
+
         <NavLink  to="/Shop">
 
       <FontAwesomeIcon icon={faSearch} className="text-2xl text-white" />
@@ -76,7 +81,7 @@ const Navbar = () => {
       <NavLink to="/Cart">
   <FontAwesomeIcon icon={faShoppingCart} className="text-2xl text-white" />
 </NavLink>
-      </div>
+      </motion.div>
       </div>
     </div>
    </div>
