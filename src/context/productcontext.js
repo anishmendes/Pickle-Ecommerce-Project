@@ -1,12 +1,12 @@
-// import { createContext } from "react";
+import { createContext } from "react";
 
-// const AppContext = createContext();
+const AppContext = createContext();
 
-// const AppProvider = ({ children }) => {
-//     return <AppContext.Provider value="anish">
-//         {children}
-//     </AppContext.Provider>
-// };
+const AppProvider = ({ children }) => {
+    return <AppContext.Provider value="anish">
+        {children}
+    </AppContext.Provider>
+};
 
 
-// export { AppProvider , AppContext } ; 
+export { AppProvider , AppContext } ; 
