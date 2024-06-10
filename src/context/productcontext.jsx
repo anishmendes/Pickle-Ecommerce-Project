@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useReducer, useState } from "react";
 // import axios from "axios"
 
 
@@ -6,7 +6,18 @@ const AppContext = createContext();
 
 const API = "http://localhost:3000/product";
 
+const initialState = {
+    isLoading: false,
+    isError: false,
+    products:[],
+    featureProducts:[],
+}
+
 const AppProvider = ({ children }) => {
+    
+    const [state, dispatch] = useReducer(reducer, initialState);
+
+
     const [products, setProducts] = useState([]);
 
     const getProducts = async () => {
@@ -30,7 +41,7 @@ const AppProvider = ({ children }) => {
 
 
 
-    return <AppContext.Provider value= {{ myName:"anish mainali"}}>
+    return <AppContext.Provider value= {{...state }}>
         {children}
     </AppContext.Provider>
 };
