@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Wrapper from '../Wrapper'
 import Fresh from '../Fresh'
 import Best from '../Best'
@@ -6,11 +6,15 @@ import Testimonal from '../Testimonal'
 import '../../App.css';
 import { motion } from 'framer-motion';
 import {  Link } from 'react-router-dom';
+import { AppContext } from '../../context/productcontext'
 
 const Home = () => {
+
+  const myName = useContext(AppContext);
+
   return (
     <div>
-
+   {myName}
     <div className='relative flex h-full w-full'>
       <img src="./src/assets/hero-img.jpg" alt="bg-hero"  className=' h-full w-full object-cover '/>
        <div className='absolute flex flex-col justify-start items-center ml-[100px] pt-[200px] max-w-[500px]'>
