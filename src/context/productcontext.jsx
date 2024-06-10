@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useReducer, useState } from "react";
 // import axios from "axios"
-
+import reducer from '../reducer/productReducer'
 
 const AppContext = createContext();
 
@@ -41,7 +41,7 @@ const AppProvider = ({ children }) => {
 
 
 
-    return <AppContext.Provider value= {{...state }}>
+    return <AppContext.Provider value= {{ ...state }}>
         {children}
     </AppContext.Provider>
 };
