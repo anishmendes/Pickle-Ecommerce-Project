@@ -21,6 +21,9 @@ const AppProvider = ({ children }) => {
     const [products, setProducts] = useState([]);
 
     const getProducts = async () => {
+          
+        dispatch({type: "SET_LOADING"});
+        
         try {
             const response = await fetch(API);
             if (!response.ok) {
@@ -29,8 +32,12 @@ const AppProvider = ({ children }) => {
             const data = await response.json();
             setProducts(data);
             console.log("Products:", data);
+            dispatch({type:"SET_API_DATA", payload:data});
+
+
+
         } catch (error) {
-            console.error("Error fetching products:", error);
+           dispatch({ type: "API_ERROR" });
         }
     };
 
