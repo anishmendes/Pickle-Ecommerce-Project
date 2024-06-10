@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+
 import Wrapper from '../Wrapper'
 import Fresh from '../Fresh'
 import Best from '../Best'
@@ -6,11 +6,12 @@ import Testimonal from '../Testimonal'
 import '../../App.css';
 import { motion } from 'framer-motion';
 import {  Link } from 'react-router-dom';
-import { AppContext } from '../../context/productcontext'
+import { useProductContext } from '../../context/productcontext';
+
 
 const Home = () => {
 
-  const myName = useContext(AppContext);
+  const { myName} = useProductContext();
 
   return (
     <div>
