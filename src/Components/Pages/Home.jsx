@@ -7,6 +7,7 @@ import '../../App.css';
 import { motion } from 'framer-motion';
 import {  Link } from 'react-router-dom';
 import { useProductContext } from '../../context/productcontext';
+import FeatureProduct from './FeatureProduct';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
   return (
     <div>
    {myName}
+   <FeatureProduct/>
     <div className='relative flex h-full w-full'>
       <img src="./src/assets/hero-img.jpg" alt="bg-hero"  className=' h-full w-full object-cover '/>
        <div className='absolute flex flex-col justify-start items-center ml-[100px] pt-[200px] max-w-[500px]'>
