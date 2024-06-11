@@ -50,9 +50,9 @@ const Footer = () => {
          <div className='flex flex-col pb-[65px] '>
          <h2 className='text-2xl font-semibold text-black '>Account</h2>
           <ul className='pt-8  text-xl text-black font-medium '>
-           <li className='pb-1'> My Account</li>
-            <li className='pb-1'>Shop Details </li>
-            <li className='pb-1'>Shopping Cart</li>
+           <li className='pb-1 hover:bg-hard hover:text-white hover:cursor-pointer hover:rounded  transition-all duration-300 ease-in'> My Account</li>
+            <li className='pb-1 hover:bg-hard hover:text-white hover:cursor-pointer hover:rounded  transition-all duration-300 ease-in'>Shop Details </li>
+            <li className='pb-1 hover:bg-hard hover:text-white hover:cursor-pointer hover:rounded  transition-all duration-300 ease-in'>Shopping Cart</li>
           
           </ul>
           </div> 
