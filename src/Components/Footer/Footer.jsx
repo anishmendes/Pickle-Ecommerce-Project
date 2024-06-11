@@ -47,7 +47,7 @@ const Footer = () => {
             <li className='pb-1'>FAQS & Help</li>
           </ul>
           </div> 
-         <div className='flex flex-col pb-[65px] '>
+         <div className='flex flex-col pb-[65px]  cursor-pointer'>
          <h2 className='text-2xl font-semibold text-black '>Account</h2>
           <ul className='pt-8  text-xl text-black font-medium '>
            <li className='pb-1'> My Account</li>
@@ -60,8 +60,8 @@ const Footer = () => {
          
 
 
-         <h2 className='text-2xl font-semibold text-black'>Contact</h2>
-          <ul className='pt-8 text-xl text-black font-medium'>
+         <h2 className='text-2xl font-semibold text-black cursor-pointer'>Contact</h2>
+          <ul className='pt-8 text-xl text-black font-medium cursor-pointer'>
            <li className='pb-1'>  Address: New Baneshwor, Kathmandu 44600</li>
             <li className='pb-1'>Email: gaunnko@gmail.com </li>
             <li className='pb-1'>Phone: (+977) 9808284192</li>
