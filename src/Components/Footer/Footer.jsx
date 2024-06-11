@@ -37,7 +37,7 @@ const Footer = () => {
             <h2 className='text-2xl font-medium text-black'>Why people like us ?</h2>
             <p className='text-xl text-black pt-5'>People appreciate us because we offer organic pickles bursting with spices and tanginess. Our commitment to quality ingredients ensures a flavorful experience, satisfying the cravings of spice and sour lovers alike.</p>
           </div> 
-         <div className='flex flex-col cursor-pointer'>
+         <div className='flex flex-col'>
           <h2 className='text-2xl font-semibold text-black'>Shop Info</h2>
           <ul className='pt-8 text-xl text-black font-medium'>
             <li className='pb-1'>Aboutus</li>
@@ -47,7 +47,7 @@ const Footer = () => {
             <li className='pb-1'>FAQS & Help</li>
           </ul>
           </div> 
-         <div className='flex flex-col pb-[65px]  cursor-pointer'>
+         <div className='flex flex-col pb-[65px] '>
          <h2 className='text-2xl font-semibold text-black '>Account</h2>
           <ul className='pt-8  text-xl text-black font-medium '>
            <li className='pb-1'> My Account</li>
@@ -60,11 +60,11 @@ const Footer = () => {
          
 
 
-         <h2 className='text-2xl font-semibold text-black cursor-pointer'>Contact</h2>
-          <ul className='pt-8 text-xl text-black font-medium cursor-pointer'>
-           <li className='pb-1'>  Address: New Baneshwor, Kathmandu 44600</li>
-            <li className='pb-1'>Email: gaunnko@gmail.com </li>
-            <li className='pb-1'>Phone: (+977) 9808284192</li>
+         <h2 className='text-2xl font-semibold text-black'>Contact</h2>
+          <ul className='pt-8 text-xl text-black font-medium '>
+           <li className='pb-1 hover:bg-hard hover:text-white hover:cursor-pointer hover:rounded transition-all duration-300 ease-in'>  Address: New Baneshwor, Kathmandu 44600</li>
+            <li className='pb-1 hover:bg-hard hover:text-white hover:cursor-pointer hover:rounded transition-all duration-300 ease-in'>Email: gaunnko@gmail.com </li>
+            <li className='pb-1 hover:bg-hard hover:text-white hover:cursor-pointer hover:rounded  transition-all duration-300 ease-in'>Phone: (+977) 9808284192</li>
           
           </ul>
           </div> 
