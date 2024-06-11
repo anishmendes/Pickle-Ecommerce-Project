@@ -12,16 +12,16 @@ const Footer = () => {
 
          <div className='pl-[50px] flex items-center justify-around gap-6'>
        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faFacebookF} className="text-blue-200 hover:text-blue-800 text-3xl transition duration-300 ease-in-out " />
+        <FontAwesomeIcon icon={faFacebookF} className="text-blue-900 hover:text-blue-800 text-3xl transition duration-300 ease-in-out " />
       </a>
       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faTwitter} className="text-blue-200 hover:text-cyan-500 text-3xl transition duration-300 ease-in-out" />
+        <FontAwesomeIcon icon={faTwitter} className="text-cyan-800 hover:text-cyan-500 text-3xl transition duration-300 ease-in-out" />
       </a>
       <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faInstagram} className="text-blue-200 hover:text-red-600 text-3xl transition duration-300 ease-in-out" />
+        <FontAwesomeIcon icon={faInstagram} className="text-red-800 hover:text-red-600 text-3xl transition duration-300 ease-in-out" />
       </a>
       <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faWhatsapp} className="text-blue-200 hover:text-green-500 text-3xl transition duration-300 ease-in-out" />
+        <FontAwesomeIcon icon={faWhatsapp} className="text-green-700 hover:text-green-500 text-3xl transition duration-300 ease-in-out" />
       </a>
        </div>
       </div>
