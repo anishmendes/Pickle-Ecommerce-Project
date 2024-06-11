@@ -6,22 +6,22 @@ import { motion } from 'framer-motion';
 
 const best = [
     {
-        cover: "./public/assets/akbore.jpg",
+        cover: "/assets/akbore.jpg",
       name: "Akhabare Pickle",
       
     },
     {
-        cover: "./public/assets/chicken.jpg",
+        cover: "/assets/chicken.jpg",
       name: "Chicken  Pickle",
       
     },
     {
-        cover: "./public/assets/mutton.jpg",
+        cover: "/assets/mutton.jpg",
       name: "Mutton Pickle",
       
     },
     {
-        cover: "./public/assets/chilly.jpg",
+        cover: "/assets/chilly.jpg",
       name: "Chilli Pickle",
       
     },

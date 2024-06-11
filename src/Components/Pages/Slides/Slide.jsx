@@ -6,93 +6,93 @@ import { motion } from 'framer-motion'
 
 const pickle = [
     {
-        cover: "./public/assets/akhabare_pickle.png",
+        cover: "/assets/akhabare_pickle.png",
       name: "Akhabare Pickle",
       desc: "Akhabare pickle: a tantalizing blend of zesty flavours and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
     },
     {
-        cover: "./public/assets/sinchaun_pickle.png",
+        cover: "/assets/sinchaun_pickle.png",
       name: "Sinchaun  Pickle",
       desc: "Sinchaun pickle: a fiery fusion of tangy vegetables and potent spices, igniting taste buds aith its bold, aromatic punch.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Chilli Pickle",
       desc: "Chilli pickle: a fiery fusion of whole or chopped chilies, infused and spices, parking a punch of heat and flavour in every bite.",
     },
 
     {
-        cover: "./public/assets/chicken_pickle.png",
+        cover: "/assets/chicken_pickle.png",
       name: "Chicken Pickle",
       desc: "Chicken pickle: Perfectly infused with a robust mix of traditional spices and a touch of vinegar, this pickle promises to elevate any meal.",
     },
     {
-        cover: "./public/assets/fenugreek_pickle.png",
+        cover: "/assets/fenugreek_pickle.png",
       name: "Fenugreek Pickle",
       desc: "Fenugreek pickle: Each spoonful offers a delightful harmony of tangy, bitter, and savory notes, making it an irresistible treat for pickle lovers.",
     },
     {
-        cover: "./public/assets/garlic_pickle.png",
+        cover: "/assets/garlic_pickle.png",
       name: "Garlic Pickle",
       desc: "Garlic pickle: Each clove bursts with a rich medley of tangy, savory, and aromatic notes, creating an irresistible delight for pickle enthusiasts.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Radhish Pickle",
       desc: "Each piece of radish offers a crisp, refreshing crunch combined with a harmonious medley of tangy, savory, and aromatic notes.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Lapsi Pickle",
       desc: "Lapsi pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Green Chilly Pickle",
       desc: "Green Chilly pickle: Each green chili bursts with a vibrant medley of tangy, hot, and savory notes, creating an irresistible delight for pickle lovers.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Lemon Pickle",
       desc: "Lemon pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Mango Pickle",
       desc: "Mango pickle:  Each piece of mango bursts with a refreshing medley of tangy, sour, and savory notes, creating an irresistible delight for pickle enthusiasts.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Dalle Khursani Pickle",
       desc: "Dalle Khursani pickle: Infused with robust spices and a touch of vinegar, this lemon pickle promises to elevate any meal with its intense and unforgettable taste.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Mix Pickle",
       desc: "Mix pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Mutton Pickle",
       desc: "Mutton pickle:Each piece of tender mutton bursts with a rich medley of tangy, savory, and aromatic notes, creating an irresistible delight for pickle enthusiasts.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "/assets/chilli_pickle.png",
       name: "Imili Pickle",
       desc: "Imili pickle: Infused with robust spices and a touch of vinegar, this imli pickle promises to elevate any meal with its intense and unforgettable taste.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "./assets/chilli_pickle.png",
       name: "Amala Pickle",
       desc: "Amala pickle: a tantalizing blend of zesty flavors and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "./assets/chilli_pickle.png",
       name: "Gundruk Pickle",
       desc: "Gundruk pickle: Each serving of fermented leafy greens bursts with a rich medley of tangy, earthy, and savory notes, creating an irresistible treat for pickle enthusiasts",
     },
     {
-        cover: "./public/assets/chilli_pickle.png",
+        cover: "./assets/chilli_pickle.png",
       name: "Tomato Pickle",
       desc: "Tomato pickle: Infused with robust spices and a touch of vinegar, this tomato pickle promises to elevate any meal with its intense and unforgettable taste.",
     },
