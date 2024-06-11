@@ -37,7 +37,7 @@ const Footer = () => {
             <h2 className='text-2xl font-medium text-black'>Why people like us ?</h2>
             <p className='text-xl text-black pt-5'>People appreciate us because we offer organic pickles bursting with spices and tanginess. Our commitment to quality ingredients ensures a flavorful experience, satisfying the cravings of spice and sour lovers alike.</p>
           </div> 
-         <div className='flex flex-col'>
+         <div className='flex flex-col cursor-pointer'>
           <h2 className='text-2xl font-semibold text-black'>Shop Info</h2>
           <ul className='pt-8 text-xl text-black font-medium'>
             <li className='pb-1'>Aboutus</li>
