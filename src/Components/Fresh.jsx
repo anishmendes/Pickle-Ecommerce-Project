@@ -3,17 +3,17 @@ import '../App.css'
 import { motion } from 'framer-motion';
 const pickle = [
     {
-        cover: "./src/assets/akbore.jpg",
+        cover: "./public/assets/akbore.jpg",
       name: "Akhabare Pickle",
       desc: "Akhabare pickle: a tantalizing blend of zesty flavours and fiery spices, delivering a spicy kick that leaves taste buds electrified with each bite.",
     },
     {
-        cover: "./src/assets/sinchaun_pickle.jpg",
+        cover: "./public/assets/sinchaun_pickle.jpg",
       name: "Sinchaun  Pickle",
       desc: "Sinchaun pickle: a fiery fusion of tangy vegetables and potent spices, igniting taste buds aith its bold, aromatic punch.",
     },
     {
-        cover: "./src/assets/chilly.jpg",
+        cover: "./public/assets/chilly.jpg",
       name: "Chilli Pickle",
       desc: "Chilli pickle: a fiery fusion of whole or chopped chilies, infused and spices, parking a punch of heat and flavour in every bite.",
     },

@@ -19,7 +19,7 @@ const Home = () => {
    {myName}
    <FeatureProduct/>
     <div className='relative flex h-full w-full'>
-      <img src="./src/assets/hero-img.jpg" alt="bg-hero"  className=' h-full w-full object-cover '/>
+      <img src="./public/assets/hero-img.jpg" alt="bg-hero"  className=' h-full w-full object-cover '/>
        <div className='absolute flex flex-col justify-start items-center ml-[100px] pt-[200px] max-w-[500px]'>
         <h2 className='text-xl font-bold'>100% Organic Pickle</h2>
         <h1 className='text-3xl font-bold pt-2'>GAUNKO  <span className='text-hard'>AACHAR</span></h1>
@@ -31,7 +31,7 @@ const Home = () => {
 </Link>
         </div> 
         <div className='absolute flex right-0   mr-[100px] pt-[100px]'>
-          <img src="./src/assets/pickle.png" alt="pickle" className='h-[550px] w-[500px] ' />
+          <img src="./public/assets/pickle.png" alt="pickle" className='h-[550px] w-[500px] ' />
         </div>
     </div>
         <Wrapper/>
@@ -60,7 +60,7 @@ const Home = () => {
           whileHover={{ scale: 0.9, y: -10 }}
           
           className='flex items-end rounded pr-[50px] pt-8 pb-10'>
-            <img src="./src/assets/pickle.png" alt="pickle" className='h-[350px] w-[550px] ' />
+            <img src="./public/assets/pickle.png" alt="pickle" className='h-[350px] w-[550px] ' />
           </motion.div>
 
         </motion.div>
