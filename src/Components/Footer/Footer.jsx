@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='p-auto bg-navbar1 mt-[100px]'>
       <div className='flex flex-row items-center justify-center  pt-[50px] gap-[1.5px] '>
-      <h1 className='text-3xl font-bold pt-2 text-hard flex pr-10 '>GAUNKO AACHAR</h1>
+      <h1 className='text-3xl font-bold pt-2 text-hard flex pr-10 '><span className='text-green-800 hover:text-green-600 transition duration-300 ease-in-out pr-1'>GAUNKO </span>AACHAR</h1>
          <input type='text' placeholder='Enter Your Email' className='p-3 w-[550px] rounded-xl text-black' />
          <button className='bg-customGray text-black  border-green-500 border-2 rounded-xl p-[10px] pl-6 pr-6  '>Join Now</button>
 
