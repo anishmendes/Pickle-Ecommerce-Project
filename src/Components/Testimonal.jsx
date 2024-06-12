@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from 'framer-motion'
 import { testimonal } from '../Data'
 
@@ -32,7 +32,7 @@ const Testimonal = () => {
             <SwiperSlide key={index} className=' flex   justify- center '>
               <motion.div
                 whileHover={{ scale: 0.93 }}
-                className=' flex flex-col  pb-[100px] p-[40px] rounded border-[10px] text-center bg-navbar border border-hard   max-h-[350px]' 
+                className=' flex flex-col  pb-[100px] p-[40px] rounded  text-center bg-navbar border border-hard   max-h-[350px]' 
               >
                 <div className=' flex'>
                   <div className='img'>
