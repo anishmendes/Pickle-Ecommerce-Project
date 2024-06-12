@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 import {  Link } from 'react-router-dom';
 import { useProductContext } from '../../context/productcontext';
 
-// import FeatureProduct from './FeatureProduct';
+import FeatureProduct from './FeatureProduct';
 
 
 const Home = () => {
@@ -18,6 +18,7 @@ const Home = () => {
   return (
     <div>
   {myName}
+  <FeatureProduct/>
    
 
 
