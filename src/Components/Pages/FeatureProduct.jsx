@@ -21,7 +21,7 @@ const FeatureProduct = () => {
                     return <Product key={currElem.id} {...currElem} />
                 })
             ) : (
-                // <div>No featured products available.</div>
+                <div></div>
             )}
         </div>
     </div>
